@@ -68,13 +68,13 @@ export default function Experience()
             floatIntensity={ 0.25 }
             rotationIntensity={ 0.8 }
             floatingRange={ [2, 6] } >
-        <Text 
-            font='./bangers-v20-latin-regular.woff'
-            fontSize={ 1.5 }
-            color='yellow'
-            position-y={ 3 }
-            position-z={ -3 }
-            textAlign='center'>This is a test</Text>
+            <Text 
+                font='./bangers-v20-latin-regular.woff'
+                fontSize={ 1.5 }
+                color='yellow'
+                position-y={ 3 }
+                position-z={ -3 }
+                textAlign='center'>This is a test</Text>
         </Float>
     </>
 }
