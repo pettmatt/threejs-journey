@@ -6,7 +6,7 @@ import Experience from './Experience.jsx'
 
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
-const backgroundColor = '#ff99ee'
+const backgroundColor = '#ffffff'
 
 const created = ({ gl, scene }) => {
     console.log(gl, scene)
