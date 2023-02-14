@@ -16,7 +16,10 @@ const Fox = () => {
   useEffect(() => {
     const action = animations.actions[animation]
     // Fade in makes the transition of animations smoother
-    action.reset().fadeIn(0.5).play()
+    action
+      .reset()
+      .fadeIn(0.5)
+      .play()
     
     // After a moment change the animation
     // window.setTimeout(() => {
